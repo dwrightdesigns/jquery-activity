@@ -1,0 +1,55 @@
+body {
+    background: url("img/augustine-wong-li0iC0rjvvg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.accordion {
+    list-style-type: none;
+    padding-left: 0;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.inner{
+    list-style-type: none;
+    padding-left: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.inner li{
+    padding: 10px 0 10px 0;
+}
+
+
+.inner li:hover{
+    background-color: ;
+}
+
+.toggle{
+    outline: none;
+    text-align: left;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 40px;
+    width: 450px;
+    border: none;
+    background-color: mediumaquamarine;
+}
+
+.toggle:hover{
+    opacity: 80%;
+}
+
+.toggle:active{
+    font-size: 1.3rem;
+}
